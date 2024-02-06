@@ -9,7 +9,7 @@ class GradientContainer extends StatelessWidget {
 
   const GradientContainer.purple({super.key})
       : color1 = Colors.deepPurple,
-        color2 = Colors.indigo;
+        color2 = const Color.fromARGB(255, 71, 90, 197);
 
   final Color color1;
   final Color color2;
